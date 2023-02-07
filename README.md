@@ -9,7 +9,6 @@ of sorting the tasks to create a proper execution order.
 Here’s an example request body:
 
 {
-
     "tasks":[
 
         {
@@ -65,7 +64,6 @@ Here’s an example request body:
         }
 
     ]
-
 }
 
 
