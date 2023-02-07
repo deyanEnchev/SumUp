@@ -63,11 +63,11 @@ For which an example response might look like the following:
 
 Additionally, the service should be able to return a bash script representation directly:
 
-    `#!/usr/bin/env bash
+    #!/usr/bin/env bash
     touch /tmp/file1
     echo "Hello World!" > /tmp/file1
     cat /tmp/file1
-    rm /tmp/file1`
+    rm /tmp/file1
 
 Thus allowing us to run the commands directly from shell, for example:
 
