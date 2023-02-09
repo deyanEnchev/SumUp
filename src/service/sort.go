@@ -6,6 +6,10 @@ import (
 	"github.com/deyanEnchev/src/model"
 )
 
+// Implements topological sort to sort tasks in a given job struct. 
+// Uses a recursive "visit" function to check for cycles, marking tasks as visited 
+// and adding them to a sorted slice. Returns an error if a cycle is detected, 
+// otherwise returns the sorted tasks.
 func TopologicalSort(j model.Job) ([]model.Task, error) {
 	taskMap := make(map[string]model.Task)
 	for _, task := range j.Tasks {
