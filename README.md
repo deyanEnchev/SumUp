@@ -1,4 +1,15 @@
-# SumUp interview task
+# Job Processing Project
+## Introduction
+This Go project provides a solution to the SumUp job processing interview problem.
+
+## Usage
+While in the root of the project, use this command in order to run it:
+`go run src/main.go`
+
+## Testing
+While in the root of the project, use this command in order to run all tests for it:
+`go test ./...`
+## SumUp interview task
 
 Welcome to the **SumUp** coding challenge!
 In this coding challenge we kindly ask you to implement a rather contrived **HTTP job processing service**.
