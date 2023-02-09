@@ -9,7 +9,7 @@ While in the root of the project, use this command in order to run it:
 After running the project, you can either execute POST requests through Postman,
 or you can use the following command:
 
-    `$ curl -d @mytasks.json http://localhost:4000/... | bash`
+    $ curl -d @mytasks.json http://localhost:4000/... | bash
 
 ## Testing
 While in the root of the project, use this command in order to run all tests for it:
